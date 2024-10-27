@@ -2,7 +2,6 @@ import "./LessonScheduleView.css";
 
 // View с расписанием уроков
 function LessonScheduleView({ lessonSchedule }) {
-  console.log(lessonSchedule);
   // Максимальное количество уроков у всех классов
   const maxLessons = Math.max(
     ...lessonSchedule.lessons.map((cls) => cls.lessons.length)

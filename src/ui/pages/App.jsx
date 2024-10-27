@@ -1,6 +1,7 @@
 import "./App.css";
 import LessonScheduleView from "../views/lessonScheduleView/LessonScheduleView";
 import { useState } from "react";
+import TimeView from "../views/timeView/TimeView";
 
 function App() {
   const [lessonSchedule, setLessonSchedule] = useState({
@@ -15,37 +16,19 @@ function App() {
         ],
         class: "12Я",
       },
-      {
-        lessons: [
-          {
-            name: "тест",
-            classroom: "202",
-          },
-        ],
-        class: "12Я",
-      },
-      {
-        lessons: [
-          {
-            name: "тест",
-            classroom: "202",
-          },
-        ],
-        class: "12Я",
-      },
-      {
-        lessons: [
-          {
-            name: "тест",
-            classroom: "202",
-          },
-        ],
-        class: "12Я",
-      },
     ],
   });
 
-  return <>{<LessonScheduleView lessonSchedule={lessonSchedule} />}</>;
+  return (
+    <div className="container">
+      <div className="lessonScheduleContainer">
+        <LessonScheduleView lessonSchedule={lessonSchedule} />
+      </div>
+      <div className="infoColumn">
+        <TimeView />
+      </div>
+    </div>
+  );
 }
 
 export default App;
