@@ -1,0 +1,24 @@
+.dailyRoutineList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+
+  width: calc(100% - 3rem);
+  padding: 1.5rem;
+
+  gap: 0.2rem;
+}
+
+.routineCell {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+}
+
+.date {
+  font-size: 1rem;
+}
