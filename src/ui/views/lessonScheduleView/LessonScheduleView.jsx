@@ -12,7 +12,7 @@ function LessonScheduleView({ lessonSchedule }) {
       <thead>
         <tr>
           <th>
-            <p className="sectionTitleCell">Урок</p>
+            <p className="sectionTitleCell"></p>
           </th>
           {lessonSchedule.lessons.map((cls) => (
             <th key={cls.class}>

@@ -12,7 +12,401 @@ function App() {
       {
         lessons: [
           {
-            name: "тест",
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+        ],
+        class: "12Я",
+      },
+      {
+        lessons: [
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+        ],
+        class: "12Я",
+      },
+      {
+        lessons: [
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+        ],
+        class: "12Я",
+      },
+      {
+        lessons: [
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+        ],
+        class: "12Я",
+      },
+      {
+        lessons: [
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+        ],
+        class: "12Я",
+      },
+      {
+        lessons: [
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+        ],
+        class: "12Я",
+      },
+      {
+        lessons: [
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+        ],
+        class: "12Я",
+      },
+      {
+        lessons: [
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+        ],
+        class: "12Я",
+      },
+      {
+        lessons: [
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+        ],
+        class: "12Я",
+      },
+      {
+        lessons: [
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+        ],
+        class: "12Я",
+      },
+      {
+        lessons: [
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
+            classroom: "202",
+          },
+          {
+            name: "Матем",
             classroom: "202",
           },
         ],
@@ -22,6 +416,56 @@ function App() {
   });
 
   const [dailyRoutine, setDailyRoutine] = useState([
+    {
+      name: "test",
+      start_time: "12:00",
+      end_time: "13:00",
+    },
+    {
+      name: "test",
+      start_time: "12:00",
+      end_time: "13:00",
+    },
+    {
+      name: "test",
+      start_time: "12:00",
+      end_time: "13:00",
+    },
+    {
+      name: "test",
+      start_time: "12:00",
+      end_time: "13:00",
+    },
+    {
+      name: "test",
+      start_time: "12:00",
+      end_time: "13:00",
+    },
+    {
+      name: "test",
+      start_time: "12:00",
+      end_time: "13:00",
+    },
+    {
+      name: "test",
+      start_time: "12:00",
+      end_time: "13:00",
+    },
+    {
+      name: "test",
+      start_time: "12:00",
+      end_time: "13:00",
+    },
+    {
+      name: "test",
+      start_time: "12:00",
+      end_time: "13:00",
+    },
+    {
+      name: "test",
+      start_time: "12:00",
+      end_time: "13:00",
+    },
     {
       name: "test",
       start_time: "12:00",
@@ -63,9 +507,11 @@ function App() {
         <LessonScheduleView lessonSchedule={lessonSchedule} />
       </div>
       <div className="infoColumn">
-        <TimeView />
+        <div className="mainInfo">
+          <TimeView />
+          <DailyRoutineView dailyRoutine={dailyRoutine} />
+        </div>
         <NotificationsView notifications={notifications} />
-        <DailyRoutineView dailyRoutine={dailyRoutine} />
       </div>
     </div>
   );

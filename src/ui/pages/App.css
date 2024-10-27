@@ -12,10 +12,12 @@
 }
 
 .infoColumn {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  
   width: 20%;
   height: 100%;
+}
+
+.mainInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
