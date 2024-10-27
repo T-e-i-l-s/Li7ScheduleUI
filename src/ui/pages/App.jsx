@@ -3,6 +3,7 @@ import LessonScheduleView from "../views/lessonScheduleView/LessonScheduleView";
 import { useState } from "react";
 import TimeView from "../views/timeView/TimeView";
 import DailyRoutineView from "../views/dailyRoutineView/DailyRoutineView";
+import NotificationsView from "../views/notificationsView/NotificationsView";
 
 function App() {
   const [lessonSchedule, setLessonSchedule] = useState({
@@ -38,6 +39,24 @@ function App() {
     },
   ]);
 
+  const [notifications, setNotifications] = useState([
+    {
+      id: 0,
+      title: "Моралька",
+      description: "Приходите в хол к 17.30!",
+    },
+    {
+      id: 0,
+      title: "Линейка",
+      description: "Ждем всех в 8.20!",
+    },
+    {
+      id: 0,
+      title: "Расписание",
+      description: "Доска была обновлена при поддержке команды Алексея Леухина",
+    },
+  ]);
+
   return (
     <div className="container">
       <div className="lessonScheduleContainer">
@@ -45,6 +64,7 @@ function App() {
       </div>
       <div className="infoColumn">
         <TimeView />
+        <NotificationsView notifications={notifications} />
         <DailyRoutineView dailyRoutine={dailyRoutine} />
       </div>
     </div>
