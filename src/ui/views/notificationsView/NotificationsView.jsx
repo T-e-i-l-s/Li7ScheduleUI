@@ -5,14 +5,20 @@ import "./NotificationsView.css";
 function NotificationsView({ notifications }) {
   const [currentNotificationIndex, setCurrentNotificationIndex] = useState(0);
   const [isAnimating, setIsAnimating] = useState(false);
+  const [isWaiting, setIsWaiting] = useState(false);
 
   const nextItem = () => {
     setIsAnimating(true);
     setTimeout(() => {
-      setCurrentNotificationIndex(
-        (prevIndex) => (prevIndex + 1) % notifications.length
-      );
       setIsAnimating(false);
+      setIsWaiting(true);
+
+      setTimeout(() => {
+        setIsWaiting(false);
+        setCurrentNotificationIndex(
+          (prevIndex) => (prevIndex + 1) % notifications.length
+        );
+      }, 10000);
     }, 500);
   };
 
@@ -27,15 +33,18 @@ function NotificationsView({ notifications }) {
         <div
           key={index}
           className={`carouselItem ${
-            index === currentNotificationIndex ? "active" : ""
+            index === currentNotificationIndex && !isWaiting ? "active" : ""
           } ${
             isAnimating && index === currentNotificationIndex ? "animate" : ""
           }`}
           style={{ zIndex: index === currentNotificationIndex ? 2 : 1 }}
         >
           <div className="notificationContainer">
-            <p className="notificationTitle">{item.title}</p>
-            <p className="notificationDescription">{item.description}</p>
+            <img src="warning_icon.svg" height={"20rem"} />
+            <div>
+              <p className="notificationTitle">{item.title}</p>
+              <p className="notificationDescription">{item.description}</p>
+            </div>
           </div>
         </div>
       ))}

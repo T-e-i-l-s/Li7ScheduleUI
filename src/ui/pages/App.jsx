@@ -4,6 +4,7 @@ import { useState } from "react";
 import TimeView from "../views/timeView/TimeView";
 import DailyRoutineView from "../views/dailyRoutineView/DailyRoutineView";
 import NotificationsView from "../views/notificationsView/NotificationsView";
+import QRCodeView from "../views/qrCodeView/QRCodeView";
 
 function App() {
   const [lessonSchedule, setLessonSchedule] = useState({
@@ -510,6 +511,7 @@ function App() {
         <div className="mainInfo">
           <TimeView />
           <DailyRoutineView dailyRoutine={dailyRoutine} />
+          <QRCodeView />
         </div>
         <NotificationsView notifications={notifications} />
       </div>

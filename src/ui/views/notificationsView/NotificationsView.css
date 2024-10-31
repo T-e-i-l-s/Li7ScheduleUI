@@ -4,18 +4,16 @@
   right: 0;
   display: flex;
 
-  width: calc(20% - 1.5rem);
+  width: 20%;
   height: 100%;
-
-  margin-left: 1.5rem;
 
   overflow: hidden;
 }
 
 .carouselItem {
   position: absolute;
-  bottom: 1rem;
-  left: 0;
+  bottom: 0;
+  right: 0;
 
   display: flex;
   justify-content: center;
@@ -24,41 +22,45 @@
   width: 100%;
   
   transition: transform 0.5s ease;
-  transform: translateX(100%);
+  transform: translateY(100%);
 }
 
 .carouselItem.active {
-  transform: translateX(0);
+  transform: translateY(0);
 }
 
 .carouselItem.animate {
-  transform: translateX(100%);
+  transform: translateY(100%);
 }
 
 .notificationContainer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: start;
-  align-items: start;
+  align-items: center;
 
   width: 100%;
   height: 100%;
 
   background-color: var(--notifications-color);
 
-  border-radius: 1rem 0rem 0rem 1rem;
+  border-radius: 1rem;
 
+  margin: 1.5rem;
   padding: 0.5rem;
   padding-left: 0.8rem;
   padding-right: 0.8rem;
+
+  gap: 0.5rem;
 }
 
 
 .notificationTitle {
   font-size: 1rem;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .notificationDescription {
   font-size: 0.9rem;
+  font-weight: 400;
 }
